@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+}
+/* .bg-img{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.bg-cl{
+    background-color: aqua;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    border-radius: 25px;
+}
+.kiran1{
+    margin-top: 25px;
+}
+.kiran{
+    margin-top: 25px;
+} */
+.bg-cl{
+    border-radius: 25px;
+}
