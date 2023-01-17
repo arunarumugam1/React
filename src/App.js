@@ -7,14 +7,9 @@ import './App.css';
 // import {Comp} from './component/notification/notification';
 // import { Log } from './component/login/login';
 // import {Techno} from './component/technology/tech';
-// import { Menu } from './component/menu/menu';
 // import { BrowserRouter,Routes,Route } from 'react-router-dom';
-// import { Home } from './responsive/home1'
-// import { Work } from './responsive/work';
-// import { Form } from './responsive/form';
-// import { Imc } from './component/congrats/increment';
-// import { About } from './responsive/about';
-import { Testimo } from './responsive/testimonial';
+// import { Overall } from './responsive/overall';
+import { Frut } from './responsive/fruits';
 
 
 
@@ -30,16 +25,30 @@ function App() {
       <Route path='/notification' element={<Comp/>}/>
       <Route path='/login' element={<Log/>}/>
       <Route path='/tech' element={<Techno/>}/>
-      <Route path='/menu' element={<Menu/>}/>
+
+      <Route path='/Menu' element={<Menu/>}/>
+
+      
+      <Route path='/responsive/overall' element={<Overall/>}/>
+      
+      
+
       
     </Routes>
     </BrowserRouter> */}
-    {/* < Home/> */}
-    {/* <Work/> */}
-    {/* <Form/> */}
-    {/* <Imc/> */}
-    {/* <About/> */}
+    {/* <Overall/> */}
+    {/* < Home/>
+    <Work/>
+    <Form/>
+    
+    <Imc/>
+    <About/>
     <Testimo/>
+    <Product/>
+    <Cart/>
+    <Conclu/> */}
+    <Frut/>
+
     </>
 
   );

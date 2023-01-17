@@ -6,7 +6,7 @@ import work3 from './workimg3.jpg';
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 
-export function Work (){
+export function Work(){
     return(
         <>
         <div className="container-fluid bg-success p-5">

@@ -7,8 +7,8 @@ export function Hm(){
     return(
         <>
         <Menu/>
-        <h1>Hey buddys this is Arun</h1>
-        {/* <img src={img}></img> */}
+        <h4>Hey guys this is Arun</h4>
+        <img src={img}></img>
         </>
     );
 }
